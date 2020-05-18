@@ -301,6 +301,23 @@
   }
 </script>
 
+    
+<div id="container"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: '<%= page.title %>', // 可选。默认为 location.href
+  owner: 'Xiao6',
+  repo: 'Xiao6.github.io',
+  oauth: {
+    client_id: 'bf0ae749d7b03990e21a',
+    client_secret: 'd81dc19e526b67f52776657c17fdcedc5ee4c608',
+  },
+})
+gitment.render('container')
+</script>
+
         </div>
           
   
