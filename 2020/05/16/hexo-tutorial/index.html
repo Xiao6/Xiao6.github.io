@@ -20,30 +20,46 @@
     var CONFIG = {"hostname":"xiao6.github.io","root":"/","scheme":"Muse","version":"8.0.0-rc.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="记录学习点滴">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Xiao&#39;s Blog">
-<meta property="og:url" content="https://xiao6.github.io/index.html">
+  <meta name="description" content="这篇文章会介绍静态网站的一些基本知识，并教大家如何用Hexo搭建个人博客。我搭建的这个博客就是用到了下面的知识。 背景知识在开始搭建博客之前，我会介绍一些相关知识。如果不感兴趣，可以直接跳到第二部分进行博客搭建。 什么是静态网站？静态网站是指全部由HTML页面组成的网站。静态网站需要服务器来处理web request或者database communication. 这种特点决定了它非常适合功能简">
+<meta property="og:type" content="article">
+<meta property="og:title" content="使用Hexo和Github Page搭建个人博客">
+<meta property="og:url" content="https://xiao6.github.io/2020/05/16/hexo-tutorial/index.html">
 <meta property="og:site_name" content="Xiao&#39;s Blog">
-<meta property="og:description" content="记录学习点滴">
+<meta property="og:description" content="这篇文章会介绍静态网站的一些基本知识，并教大家如何用Hexo搭建个人博客。我搭建的这个博客就是用到了下面的知识。 背景知识在开始搭建博客之前，我会介绍一些相关知识。如果不感兴趣，可以直接跳到第二部分进行博客搭建。 什么是静态网站？静态网站是指全部由HTML页面组成的网站。静态网站需要服务器来处理web request或者database communication. 这种特点决定了它非常适合功能简">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://i.imgur.com/ig3Ceqy.jpg">
+<meta property="og:image" content="https://i.imgur.com/q2lLsCF.jpg">
+<meta property="og:image" content="https://i.imgur.com/jXEMtKK.jpg">
+<meta property="og:image" content="https://i.imgur.com/VNeEGo5.jpg">
+<meta property="og:image" content="https://i.imgur.com/7PEWENy.png">
+<meta property="og:image" content="https://i.imgur.com/uQHsroI.jpg">
+<meta property="og:image" content="https://i.imgur.com/cuhbvYD.png">
+<meta property="og:image" content="https://i.imgur.com/2gmw5qL.jpg">
+<meta property="og:image" content="https://i.imgur.com/9i7UyDe.jpg">
+<meta property="og:image" content="https://i.imgur.com/ttv4zpS.jpg">
+<meta property="og:image" content="https://i.imgur.com/IVm4Mq1.jpg">
+<meta property="og:image" content="https://i.imgur.com/F8q0118.png">
+<meta property="article:published_time" content="2020-05-17T06:22:55.000Z">
+<meta property="article:modified_time" content="2020-05-18T04:14:35.569Z">
 <meta property="article:author" content="Xiao">
+<meta property="article:tag" content="hexo">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.imgur.com/ig3Ceqy.jpg">
 
-<link rel="canonical" href="https://xiao6.github.io/">
+<link rel="canonical" href="https://xiao6.github.io/2020/05/16/hexo-tutorial/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome : true,
-    isPost : false,
+    isHome : false,
+    isPost : true,
     lang   : 'en'
   };
 </script>
 
-  <title>Xiao's Blog</title>
+  <title>使用Hexo和Github Page搭建个人博客 | Xiao's Blog</title>
   
 
 
@@ -179,9 +195,10 @@
         <div class="content-wrap">
           
 
-          <div class="content index posts-expand">
+          <div class="content post posts-expand">
             
-      
+
+    
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
@@ -197,10 +214,9 @@
       <meta itemprop="name" content="Xiao's Blog">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/05/16/hexo-tutorial/" class="post-title-link" itemprop="url">使用Hexo和Github Page搭建个人博客</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          使用Hexo和Github Page搭建个人博客
+        </h1>
 
         <div class="post-meta">
             <span class="post-meta-item">
@@ -239,7 +255,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>这篇文章会介绍静态网站的一些基本知识，并教大家如何用Hexo搭建个人博客。我搭建的这个博客就是用到了下面的知识。</p>
+        <p>这篇文章会介绍静态网站的一些基本知识，并教大家如何用Hexo搭建个人博客。我搭建的这个博客就是用到了下面的知识。</p>
 <h1 id="背景知识"><a href="#背景知识" class="headerlink" title="背景知识"></a>背景知识</h1><p>在开始搭建博客之前，我会介绍一些相关知识。如果不感兴趣，可以直接跳到第二部分进行博客搭建。</p>
 <h2 id="什么是静态网站？"><a href="#什么是静态网站？" class="headerlink" title="什么是静态网站？"></a>什么是静态网站？</h2><p>静态网站是指全部由HTML页面组成的网站。静态网站需要服务器来处理web request或者database communication. 这种特点决定了它非常适合功能简单的网站，比如博客。与之相对应的动态网站，一般需要有在服务器端运行的程序，会和用户进行交互来实现比较复杂的功能，比如浏览twitter需要的点赞功能。</p>
 <h2 id="静态网站的好处"><a href="#静态网站的好处" class="headerlink" title="静态网站的好处"></a>静态网站的好处</h2><p>静态网站有如下好处：</p>
@@ -297,21 +313,26 @@
 <h3 id="隐藏页面底部的powered-by"><a href="#隐藏页面底部的powered-by" class="headerlink" title="隐藏页面底部的powered by"></a>隐藏页面底部的powered by</h3><p>在vscode中选中next文件夹，然后用<code>alt+shift+f</code>在里面搜索<code>Powered by Hexo &amp; NexT</code>:<br><img src="https://i.imgur.com/F8q0118.png" alt="iShot2020-05-17PM09.12.04"></p>
 <h3 id="写文章时如何用多个tag或者category"><a href="#写文章时如何用多个tag或者category" class="headerlink" title="写文章时如何用多个tag或者category"></a>写文章时如何用多个tag或者category</h3><p>参考：<a href="https://github.com/theme-next/hexo-theme-next/issues/327" target="_blank" rel="noopener">https://github.com/theme-next/hexo-theme-next/issues/327</a></p>
 
-      
     </div>
 
     
     
     
+
       <footer class="post-footer">
-        <div class="post-eof"></div>
+          <div class="post-tags">
+              <a href="/tags/hexo/" rel="tag"># hexo</a>
+          </div>
+
+        
+
+
+        
       </footer>
+    
   </article>
   
   
-  
-
-
   
 
 
@@ -364,6 +385,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#背景知识"><span class="nav-number">1.</span> <span class="nav-text">背景知识</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#什么是静态网站？"><span class="nav-number">1.1.</span> <span class="nav-text">什么是静态网站？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#静态网站的好处"><span class="nav-number">1.2.</span> <span class="nav-text">静态网站的好处</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#什么是静态网站生成器？"><span class="nav-number">1.3.</span> <span class="nav-text">什么是静态网站生成器？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#有哪些静态博客生成器？各有什么优缺点？"><span class="nav-number">1.4.</span> <span class="nav-text">有哪些静态博客生成器？各有什么优缺点？</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Jekyll"><span class="nav-number">1.4.1.</span> <span class="nav-text">Jekyll</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Hugo"><span class="nav-number">1.4.2.</span> <span class="nav-text">Hugo</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Hexo"><span class="nav-number">1.4.3.</span> <span class="nav-text">Hexo</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#手把手教你用Hexo搭建博客"><span class="nav-number">2.</span> <span class="nav-text">手把手教你用Hexo搭建博客</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo安装"><span class="nav-number">2.1.</span> <span class="nav-text">Hexo安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo配置"><span class="nav-number">2.2.</span> <span class="nav-text">Hexo配置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#基本配置"><span class="nav-number">2.2.1.</span> <span class="nav-text">基本配置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#主题选择"><span class="nav-number">2.2.2.</span> <span class="nav-text">主题选择</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#常用的Hexo-Cmd"><span class="nav-number">2.2.3.</span> <span class="nav-text">常用的Hexo Cmd</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#用MWEB配合HEXO发布博客"><span class="nav-number">2.3.</span> <span class="nav-text">用MWEB配合HEXO发布博客</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#NEXT主题的更多配置"><span class="nav-number">2.4.</span> <span class="nav-text">NEXT主题的更多配置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#设置菜单"><span class="nav-number">2.4.1.</span> <span class="nav-text">设置菜单</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#创建分类和标签页面"><span class="nav-number">2.4.2.</span> <span class="nav-text">创建分类和标签页面</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#设置搜索"><span class="nav-number">2.4.3.</span> <span class="nav-text">设置搜索</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#隐藏页面底部的powered-by"><span class="nav-number">2.4.4.</span> <span class="nav-text">隐藏页面底部的powered by</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#写文章时如何用多个tag或者category"><span class="nav-number">2.4.5.</span> <span class="nav-text">写文章时如何用多个tag或者category</span></a></li></ol></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
